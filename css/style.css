@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* body {
+  height: 100vh;
+  width: 100vw;
+  background-color: #283373;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 100vh;
+}
+
+.container #logo {
+  -webkit-animation: fill 0.5s ease-in forwards 3.2s;
+          animation: fill 0.5s ease-in forwards 3.2s;
+}
+
+.container #logo path:nth-child(1) {
+  stroke-dasharray: 815.22;
+  stroke-dashoffset: 815.22;
+  -webkit-animation: animLine 2s ease forwards;
+          animation: animLine 2s ease forwards;
+}
+
+.container #logo path:nth-child(2) {
+  stroke-dasharray: 495.05;
+  stroke-dashoffset: 495.05;
+  -webkit-animation: animLine 2s ease forwards 0.3s;
+          animation: animLine 2s ease forwards 0.3s;
+}
+
+.container #logo path:nth-child(3) {
+  stroke-dasharray: 234.14;
+  stroke-dashoffset: 234.14;
+  -webkit-animation: animLine 2s ease forwards 0.6s;
+          animation: animLine 2s ease forwards 0.6s;
+}
+
+.container #logo path:nth-child(4) {
+  stroke-dasharray: 355.02;
+  stroke-dashoffset: 355.02;
+  -webkit-animation: animLine 2s ease forwards 0.9s;
+          animation: animLine 2s ease forwards 0.9s;
+}
+
+.container #logo path:nth-child(5) {
+  stroke-dasharray: 427.13;
+  stroke-dashoffset: 427.13;
+  -webkit-animation: animLine 2s ease forwards 1.2s;
+          animation: animLine 2s ease forwards 1.2s;
+}
+
+.container #logo path:nth-child(6) {
+  stroke-dasharray: 650.41;
+  stroke-dashoffset: 650.41;
+  -webkit-animation: animLine 2s ease forwards 1.5s;
+          animation: animLine 2s ease forwards 1.5s;
+}
+
+.container #logo path:nth-child(7) {
+  stroke-dasharray: 495.05;
+  stroke-dashoffset: 495.05;
+  -webkit-animation: animLine 2s ease forwards 2.1s;
+          animation: animLine 2s ease forwards 2.1s;
+}
+
+@-webkit-keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #fff;
+  }
+}
+
+@keyframes fill {
+  from {
+    fill: transparent;
+  }
+  to {
+    fill: #fff;
+  }
+}
+
+@-webkit-keyframes animLine {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+
+@keyframes animLine {
+  to {
+    stroke-dashoffset: 0px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
